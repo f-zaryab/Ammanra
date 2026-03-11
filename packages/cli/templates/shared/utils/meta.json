@@ -1,0 +1,12 @@
+{
+  "name": "utils",
+  "type": "shared",
+  "dependencies": [],
+  "internalDependencies": [],
+  "files": [
+    {
+      "source": "utils.ts",
+      "target": "lib/utils.ts"
+    }
+  ]
+}

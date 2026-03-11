@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 import { Command } from "commander";
+import { addCommand } from "./commands/add";
+
 const program = new Command();
 
 program
@@ -11,8 +13,6 @@ program
 program
   .command("add")
   .argument("<component>", "component name")
-  .action((component) => {
-    console.log(`Installing component: ${component}`);
-  });
+  .action(addCommand);
 
 program.parse();
