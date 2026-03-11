@@ -1,0 +1,15 @@
+{
+  "name": "ammanra-monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=ammanra"
+  },
+  "author": "zaryab",
+  "license": "ISC"
+}
